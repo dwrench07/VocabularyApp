@@ -10,4 +10,6 @@ VocabularyApp is a modern flashcard application for Android, built with Jetpack 
 * Local storage using Room database for offline access.
 * Light and dark theme support for comfortable viewing.
 * Intuitive navigation between home, detail, add/edit, and favorites screens.
+
+
 This app is ideal for students, language learners, or anyone who wants to build and retain vocabulary effectively.
