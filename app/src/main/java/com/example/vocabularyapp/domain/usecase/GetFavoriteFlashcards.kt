@@ -1,0 +1,7 @@
+package com.example.vocabularyapp.domain.usecase
+
+import com.example.vocabularyapp.data.repository.FlashcardRepository
+
+class GetFavoriteFlashcards(private val repository: FlashcardRepository) {
+    suspend operator fun invoke() = repository.getFavorites()
+} 
